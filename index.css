@@ -1,0 +1,296 @@
+
+
+*{
+    font-family: "Roboto Mono", monospace;    
+    color: black;
+    }
+
+.header{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #01bcef ;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+
+
+.barra {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.seccion-principal{
+    background-color: #01bcef;
+    border-radius: 25px;
+    border: 3px solid black;
+    margin: 15px;
+}
+
+.seccion-1 {
+    display: flex;  
+    height: 500px;
+}
+
+.img-personal, .descripcion {
+    display: inline-block; /* Hace que los divs se comporten como elementos en línea */
+    width: 48%;  /* Les damos un ancho para que quepan lado a lado */
+    padding: 10px;
+  }
+
+.img-personal-main, .descripcion-main {
+    display: inline-block; /* Hace que los divs se comporten como elementos en línea */
+    width: 48%;  /* Les damos un ancho para que quepan lado a lado */
+    padding: 10px;
+  }
+
+.presentacion, .ciudad{
+    font-weight: 500;
+  }
+
+.foto-personal{
+    border-radius: 20px;
+    width: 100%;
+    border: 3px solid black;
+}
+
+.foto-estudio{
+    border-radius: 20px;
+}
+
+.img-personal{
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;
+}
+
+.img-personal-main{
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;
+}
+
+.logostudy{
+    text-align: center;
+}
+
+
+.descripcion{
+    float: right;
+    margin: 10px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.descripcion-main{
+    float: right;
+    margin: 10px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.titulo1{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.seccion-2 {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.foto-estudio{
+    width: 300px;
+    height: auto;
+    
+}
+
+.main-image {
+    position:relative;
+    background: url(/assets/github-logo.png) no-repeat center;
+    background-size: cover;
+    height:450px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin: 15px;
+    border-radius: 20px;
+    border:#01bcef 3px solid;
+}
+
+.container-banner{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+
+}
+
+.container-banner h1{
+    margin: 0;
+    font-size: 66px;
+    border: 6px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen{
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.inner-div{
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgproyecto{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    border: white 3px solid;
+}
+
+.despedida{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-contacto{
+    font-size: 50px;
+}
+
+.aboutme{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Oculto inicialmente */
+    background-color: #007bff; /* Cambia el color según prefieras */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease;
+  }
+
+  .flecha-arriba{
+    color: white;
+  }
+
+
+@media (max-width:1084px) {
+
+    .foto-estudio{
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+
+    .pre-hide{
+        display: none;
+    }
+
+    .container-banner{
+        position: absolute;
+        margin-top: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color:#fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+    
+    }
+
+    .foto-estudio{
+        width: 150px;
+        height: auto;
+        
+    }
+
+
+      @media (max-width:767px){
+
+        .seccion-1{
+            display: block;
+        }
+    
+        .img-personal-main {
+            display: block; /* Hace que los divs se comporten como elementos en línea */
+            width: 90%;  /* Les damos un ancho para que quepan lado a lado */
+            
+          }
+    
+        .descripcion-main {
+            display: block ; /* Hace que los divs se comporten como elementos en línea */
+            width: 90%;  /* Les damos un ancho para que quepan lado a lado */
+            padding: 10px;
+          }
+
+          .titulo-peque{
+            font-size: 20px;
+          }
+
+        .mini{
+            font-size: 15px;
+        }
+
+        .seccion-principal{
+            font-size: small;
+        }
+
+        .imgproyecto{
+            width: 180px;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .presentacion{
+            font-size: 20px;
+        }
+
+
+      }
+
+      @media (min-width:767px){
+
+        .foto-estudio{
+            width: 300px;
+            height: auto;
+        }
+      }
+
+    
+
+
+}
