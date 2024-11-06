@@ -129,7 +129,7 @@
     margin-top: 50px;
     margin: 15px;
     border-radius: 20px;
-    border:#01bcef 3px solid;
+    
 }
 
 .container-banner{
@@ -267,6 +267,7 @@
 
         .seccion-principal{
             font-size: small;
+        
         }
 
         .imgproyecto{
