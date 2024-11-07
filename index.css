@@ -57,7 +57,12 @@
     border-radius: 20px;
     width: 100%;
     border: 3px solid black;
+    transition: transform 0.3s ease;
 }
+
+.foto-personal:hover{
+    transform: scale(1.05);
+}]
 
 .foto-estudio{
     border-radius: 20px;
@@ -117,7 +122,13 @@
 .foto-estudio{
     width: 300px;
     height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
     
+}
+
+.foto-estudio:hover {
+    transform: scale(1.1);   
 }
 
 .main-image {
@@ -170,6 +181,11 @@
     height: auto;
     border-radius: 20px;
     border: white 3px solid;
+    transition: transform 0.3s ease;
+}
+
+.imgproyecto:hover{
+    transform: scale(1.1);
 }
 
 .despedida{
@@ -179,7 +195,10 @@
 
 .logo-contacto{
     font-size: 50px;
+    
 }
+
+
 
 .aboutme{
     text-align: center;
